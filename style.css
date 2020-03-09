@@ -273,6 +273,7 @@ height: 595px;
     height: 130px;
     width: 1020px;
     align-items: flex-start;
+    padding-bottom: 48px;
 }
 .container-2 div{
     margin: 0px;
