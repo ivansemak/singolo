@@ -1,0 +1,406 @@
+@font-face{
+    font-family: Lato-Regular;
+    src: url(/assets/Lato-Regular.ttf)
+}
+@font-face{
+    font-family: Lato-Black;
+    src: url(/assets/Lato-Black.ttf);
+}
+@font-face{
+    font-family: Lato-Light;
+    src: url(/assets/Lato-Light.ttf);
+}
+@font-face{
+    font-family: Lato-Bold;
+    src: url(/assets/Lato-Bold.ttf);
+}
+body{
+    
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    
+    width: 940px;
+    margin: 0 auto;
+    }
+header{
+    
+padding: 0px;
+margin: 0px;
+background-color: #2d303a;
+height: 90px;
+}
+.logo{
+    /*font-family: Lato-Light;*/
+    padding-top: 35px;
+    padding-left: 5px;
+    margin: 0px;
+    /*color: white;
+    text-transform: uppercase;
+    font-size: 25px;*/
+}
+/*
+span{    
+    color: red;
+    font-size: 15px;
+}*/
+
+.menu{    
+    
+    margin-right: -15px;
+    margin-top: -33px;
+    /*display: block;*/
+}
+
+.menu li{        
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    display: block;
+    margin-right: 25px;
+    font-size: 12px;
+}
+.menu li a{  
+    text-decoration: none;
+    font-family: Lato-Bold;
+    letter-spacing: 0px;  
+    color: #fff;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    
+    color: red;
+}
+.dot1{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.headerBottom{
+    margin-top: 0px;
+    height: 5px;
+    background-color: #323746;
+}
+.slider{
+background-color: salmon;
+margin-top: 0px;
+height: 595px;
+}
+.phoneHor .phoneHorizontal{
+    margin-left: 425px;
+    margin-top: 175px;
+}
+.phoneVert .phoneVertical{
+    margin-left: 111px;
+    margin-top: -367px;
+}
+.bottomLine{
+    height: 5px;
+    background-color: #ea676b;
+}
+.title{
+    background-color: snow;
+    margin-top: 60px;
+    height: auto;
+}
+.title h2{    
+    padding: 0px;
+    font-family: Lato-Black;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    font-size: 30px ;
+    color: #666d89;
+}
+.titleB{
+    
+    line-height: 30px;
+    margin: 0px;
+    padding: 0px;
+    word-spacing: 1px;
+    font-family: Lato-Light;
+    margin-left: 41px;        
+    font-size: 18px;
+    color: #666d89;
+}
+.services{
+    background-color: snow;
+    height: auto;
+}
+.container-1{
+    display: flex;
+    flex-direction: row;
+    
+    height: 130px;
+    width: 1020px;
+    align-items: flex-start;
+}
+.container-1 div{
+    margin: 0px;
+    padding: 0px;
+    align-items: flex-start;
+}
+.container-1 blockquote{
+    padding: 0px;
+    margin: 0p;
+}
+.container-1 h2{
+    margin: 0px;
+    padding: 0px;  
+    font-family: Lato-Black;
+    font-size: 18px ;
+    margin-top: 30px;
+    line-height: 10px;
+    word-spacing: 0.2px;
+}
+
+.container-1 .box-1{
+    
+    flex: 0;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 4px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px; 
+    
+    
+    
+}
+.container-1 .box-2{
+    
+    flex: 2.6;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    color: #666d89;
+    font-family: Lato-Regular;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 20px;
+    padding-right: 20px;
+    margin-right: 5px;
+    
+}
+
+.box-2 blockquote{
+    margin: 0px;
+    padding: 0px;
+}
+.container-1 .box-3{
+    
+    flex: 0.5;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 4px;
+    float: left;
+    margin-top: 22px;
+    
+ 
+}
+.box-4 blockquote{
+    margin: 0px;
+    padding: 0px;
+}
+.box-4 h2{
+    margin: 0px;
+    padding: 0px;  
+    font-family: Lato-Black;
+    font-size: 18px ;
+    margin-top: 30px;
+    line-height: 10px;
+    word-spacing: 0.2px;
+    
+}
+.container-1 .box-4{
+    
+    flex: 2.7;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;   
+    color: #666d89;
+    font-family: Lato-Regular;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 20px;
+    margin-right: 20px;
+    
+    
+}
+.container-1 .box-5{
+    
+    flex: 0.5;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 4px;
+    float: left;
+    margin-top: 22px;
+    
+}.box-6 blockquote{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box-6 h2{
+    margin: 0px;
+    padding: 0px;  
+    font-family: Lato-Black;
+    font-size: 18px ;
+    margin-top: 35px;
+    line-height: 0px;
+    word-spacing: 0.2;
+}
+.container-1 .box-6{
+    
+    flex: 2.7;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 40px;
+    color: #666d89;
+    font-family: Lato-Regular;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 20px;
+    padding-left: 20px;
+}
+.container-2{
+    
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    width: 1020px;
+    align-items: flex-start;
+}
+.container-2 div{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container-2 blockquote{
+    padding: 0px;
+    margin: 0p;
+}
+.container-2 h2{
+    margin: 0px;
+    padding: 0px;  
+    font-family: Lato-Black;
+    font-size: 18px ;
+    margin-top: 20px;
+    line-height: 10px;
+    word-spacing: 0.2px;
+}
+
+.container-2 .box-7{
+    
+    flex: 0;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 4px;
+    float: left;
+    margin-top: 13px;
+    margin-left: 40px; 
+    
+    
+    
+}
+.container-2 .box-8{
+    
+    flex: 2.8;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    color: #666d89;
+    font-family: Lato-Regular;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 20px;
+    padding-right: 0px;
+    margin-right: 0px;
+    
+}
+
+.box-8 blockquote{
+    margin: 0px;
+    padding: 0px;
+}
+.container-2 .box-9{
+    
+    flex: 0.5;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 4px;
+    float: left;
+    margin-top: 14px;
+    
+ 
+}
+.box-10 blockquote{
+    margin: 0px;
+    padding: 0px;
+}
+.box-10 h2{
+    margin: 0px;
+    padding: 0px;  
+    font-family: Lato-Black;
+    font-size: 18px ;
+    margin-top: 20px;
+    line-height: 10px;
+    word-spacing: 0.2px;
+    
+}
+.container-2 .box-10{
+    flex: 2.7;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px; 
+    padding-right: 10px;  
+    color: #666d89;
+    font-family: Lato-Regular;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 20px;
+    
+    
+    
+}
+.container-2 .box-11{
+    flex: 0.5;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 4px;
+    float: left;
+    margin-top: 14px;
+    
+}.box-12 blockquote{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box-12 h2{
+    margin: 0px;
+    padding: 0px;  
+    font-family: Lato-Black;
+    font-size: 18px ;
+    margin-top: 25px;
+    line-height: 0px;
+    word-spacing: 0.2;
+}
+.container-2 .box-12{
+    
+    flex: 2.6;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 40px;
+    color: #666d89;
+    font-family: Lato-Regular;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 20px;
+    padding-left: 20px;
+}
+    
+    
+ 
